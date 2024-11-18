@@ -14,3 +14,9 @@ resource "azurerm_storage_account" "stg-b" {
   account_replication_type = "LRS"
 }
 
+resource "azurerm_resource_group" "rg-b1" {
+    name = "testrg1"
+    location = "centralindia"
+  
+}
+
