@@ -1,8 +1,8 @@
 
 jobs:
 - job: InitJob
-displayName: "Init Job"
-steps:
+  displayName: "Init Job"
+  steps:
   - task: TerraformTask@5
     inputs:
       provider: 'azurerm'
